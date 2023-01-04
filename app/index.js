@@ -31,8 +31,7 @@ async function run() {
 
     for (const jobinfo of jobsdata.data.jobs) {
         if (jobinfo.name == currentJob) {
-
-            console.log("Job Identified");
+           
             // get the current job details including run attempt
             const job_data = await octokit.rest.actions.getJobForWorkflowRun({
                 owner: github.context.repo.owner,
