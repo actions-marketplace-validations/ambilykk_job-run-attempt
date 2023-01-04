@@ -9,7 +9,7 @@ inputs:
     required: true 
 output:
   run-attempt:
-    description: 'Current job's run attempt'
+    description: 'Current job run attempt'
 
 runs:
   using: 'node16'
