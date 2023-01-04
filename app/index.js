@@ -10,7 +10,7 @@ const octokit = github.getOctokit(token);
 
 // use the current run id
 const run_id = github.context.runId;
-const currentJob = github.job;
+const currentJob = github.context.job;
 
 // define the run function
 async function run() {
