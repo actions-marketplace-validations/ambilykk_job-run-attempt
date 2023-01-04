@@ -1,6 +1,6 @@
 # Job Run Attempt 
 Return the run attempt of the current job. 
-This action will help to implement the workflow to **Prevent/Block** or **Conditionally** rerun the subsequent steps in the job. 
+This action will help us to implement the workflow to **Prevent/Block** or **Conditionally** rerun the subsequent steps in the job. 
 
 # How to Use the Action
 
