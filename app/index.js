@@ -19,8 +19,8 @@ async function run() {
 
     // List jobs for the workflow run to capture the current job id
     const jobsdata=await octokit.rest.actions.listJobsForWorkflowRun({
-        owner: context.repo.owner,
-        repo: context.repo.repo,
+        owner: github.context.repo.owner,
+        repo: github.context.repo.repo,
         run_id: run_id
       })
 
@@ -29,8 +29,8 @@ async function run() {
           
           // get the current job details including run attempt
           const job_data=await octokit.rest.actions.getJobForWorkflowRun({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
+            owner: github.context.repo.owner,
+            repo: github.context.repo.repo,
             job_id: jobinfo.id
           })
 
