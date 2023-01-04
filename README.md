@@ -1,6 +1,7 @@
 # Job Run Attempt 
 Return the run attempt of the current job. 
-This action will help us to implement the workflow to **Prevent/Block** or **Conditionally** rerun the subsequent steps in the job based on the run attempt. 
+
+The **job-run-attempt** action helps us to implement the workflow to **Prevent/Block** or **Conditionally** rerun the subsequent steps in the job based on the *run attempt*. 
 
  >  **run-attempt == 1** : indicates the first run of the job
  
