@@ -27,11 +27,13 @@ Include the job-run-attempt action in your workflow.
 Below screenshot shows the execution of the action. 
 1. First execution - executed all steps
 
-![Screenshot 2023-01-04 at 3 49 18 PM](https://user-images.githubusercontent.com/10282550/210534365-86175624-2283-4262-b21b-80fd963a0fd2.png)
+![Screenshot 2023-01-04 at 3 59 05 PM](https://user-images.githubusercontent.com/10282550/210535777-71f4d760-a6c3-4b0f-9b0a-424f949bb8fd.png)
+
 
 2. Rerun of the 'second' job - executed only the action; subsequent steps skipped
 
-![Screenshot 2023-01-04 at 3 51 16 PM](https://user-images.githubusercontent.com/10282550/210534395-217c206e-633c-4a14-a7e9-848038e7aee1.png)
+
+![Screenshot 2023-01-04 at 3 59 47 PM](https://user-images.githubusercontent.com/10282550/210535810-75683807-b25d-4105-b84f-8ce1b08f6268.png)
 
 
 
