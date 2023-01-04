@@ -1,0 +1,16 @@
+name: 'Job Run Attempt'
+description: 'Return the run attempt of the current job'
+branding:
+  icon: 'repeat'
+  color: 'green'
+inputs:  
+  token:
+    description: 'GitHub token'
+    required: true 
+output:
+  run-attempt:
+    description: 'Current job's run attempt'
+
+runs:
+  using: 'node16'
+  main: 'app/index.js'

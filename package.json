@@ -1,0 +1,23 @@
+{
+  "name": "job-run-attempt",
+  "version": "1.0.0",
+  "description": "Return the run attempt of the current job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ambilykk/job-run-attempt.git"
+  },
+  "author": "ambilykk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambilykk/job-run-attempt/issues"
+  },
+  "homepage": "https://github.com/ambilykk/job-run-attempt#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1"
+  }
+}
