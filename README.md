@@ -8,8 +8,6 @@ This action will help to implement the workflow to prevent or conditionally reru
 
 Include the job-run-attempt action in your workflow. 
 
-1: Pass the GITHUB_TOKEN
-
 ```
       - name: Testing Job Run Attempt action
         id: runst
@@ -24,12 +22,16 @@ Include the job-run-attempt action in your workflow.
 
 ```
 
-2. Output generated
+## Output generated
 
 Below screenshot shows the execution of the action. 
 1. First execution - executed all steps
+
+![Screenshot 2023-01-04 at 3 49 18 PM](https://user-images.githubusercontent.com/10282550/210534365-86175624-2283-4262-b21b-80fd963a0fd2.png)
+
 2. Rerun of the 'second' job - executed only the action; subsequent steps skipped
 
+![Screenshot 2023-01-04 at 3 51 16 PM](https://user-images.githubusercontent.com/10282550/210534395-217c206e-633c-4a14-a7e9-848038e7aee1.png)
 
 
 
